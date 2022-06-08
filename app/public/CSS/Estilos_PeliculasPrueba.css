@@ -1,0 +1,264 @@
+body{
+  background-color:black;
+}
+
+
+p{
+  color: white;
+}
+
+
+
+
+
+
+
+#Menu_Barr{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  right: 200px;
+
+ 
+}
+
+#Menu_Barr a{
+     color: white; /*letras*/
+     font-size: 22px;
+     text-decoration:none;
+     list-style-type: style none;
+     float: left;
+     margin: 25px;
+     padding: 7xp 5xp;
+     display:block;
+     background-color: black; /*resaltado*/
+     
+     
+     }
+#Menu_Barr a:hover{
+      font-weight:bold;
+      background-color:blue; /*ensima el raton realta*/
+     }
+
+.buscar{
+
+  position: absolute;
+  top: 30px;
+  left: 920px;
+      
+}
+
+
+.buscar input{
+  background:rgb(228, 201, 201);
+  width: 240px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid rgb(193, 160, 160);
+  border-radius: 30px;
+}
+
+
+
+.Contenedor_Imagenes .logo img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 1080px;
+}
+
+
+
+.linea {
+    position:relative;
+    top: 50px;
+}
+
+
+
+
+                                                                /*Estilos de las Imagenes*/
+
+.Contenedor_de_Peliculas{                 /*Estilo del contenedor 1 en donde se encuentra la primera columna de imagenes*/
+
+position: absolute;  
+  top: 230px;
+  right: 870px;
+  
+}
+
+
+
+.imgP1 img{                                       /*Estilo de la imagen 1*/
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+
+
+
+.imgP1{                                             /*Estilo del contenedor 1*/
+  background-color: white;
+  width: 250px;
+  height: 500px;
+}
+
+
+
+.imgP2 img{                                           /*Estilo de la imagen 2*/
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+
+}
+
+.imgP2{                                             /*Estilo del contenedor 2*/
+  background-color: white;
+  width: 250px;
+  height: 500px;
+}
+
+
+
+
+.imgP3 img{                                           /*Estilo de la imagen 3*/
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+
+}
+
+
+
+.imgP3{                                             /*Estilo del contenedor 3*/
+  background-color: black;
+  width: 400px;
+  height: 500px;
+}
+
+
+
+
+
+.imgP4 img{                                           /*Estilo de la imagen 4*/
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+
+}
+
+
+
+.imgP4{                                             /*Estilo del contenedor 4*/
+  background-color: black;
+  width: 400px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+.Contenedor_de_Peliculas2{                 /*Estilo del contenedor 2 en donde se encuentra la segunda columna de imagenes*/
+
+  position: absolute;  
+    top: 230px;
+    right: 600px;
+    
+  }
+
+
+
+
+
+
+
+  /*------------------------------------------------------Estilos del footer ----------------------------------------------*/
+
+
+footer{
+  width:100%;
+  padding: 50px 0px;
+  background-color: black;
+/*  background-image: url(../../../../tedyg/OneDrive/Pictures/john-wick-3-.jpg) ;*/
+  background-size: cover;
+
+}
+
+
+
+.container__footer{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 2000px;
+  }
+  
+  .box__footer{                       /**Estilos del acomodo */
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  
+  }
+  
+  
+  .box__footer .logo img{             /* estilos imagen de logo       */
+      width: 180px;
+  
+  }
+  
+                      
+  .box__footer .terms {                 /* Estilos del Texto (body) en pantalla       */
+      max-width: 350px;
+      margin-top: 20px;
+      font-weight: 500px;
+      color: white;
+      font-size: 18px;
+  }
+  
+  
+  
+  .box__footer h2{                    /* Estilos de los Titulos del footer (H2)      */
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 700;
+  }
+  
+  .box__footer a{                        /* Estilos para el texto del footer (a)       */
+      margin-top: 10px;
+      color: white;
+      font-weight: 600px;    
+  }
+  
+  .box__footer a :hover{
+      opacity: 900;
+  }
+  
+  .box__footer a .fab{
+      font-size: 2000px;
+  }
+
+  
+
+  .box__footer .i{
+      color: white;
+  }

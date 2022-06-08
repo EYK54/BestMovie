@@ -1,0 +1,153 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    }
+
+form{
+    background: rgb(187, 187, 187);
+    padding: 60px 100px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 130px 250px 100px 250px;
+    
+}
+
+/*<script src="js/bootstrap.js"></script>*/
+
+.campos{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 0px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #49454567;
+}
+
+input:focus{
+
+outline: none;
+color:#5e5d5d;
+}
+
+label{
+    color: #5e5d5d;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease-in-out all;
+    pointer-events: none;
+    }
+    
+    input:focus~label,
+    input:valid~label{
+        top: -14px;
+        font-size: 12px;
+        color: #2196f3;
+        width: 100%;
+    }
+    
+    .barra{
+        position: relative;
+        display: block;
+    }
+
+    .barra::before{
+        content: "";
+        height: 2px;
+        width: 0%;
+        bottom: 0;
+        position: absolute;
+        background: linear-gradient(to right, #B06AB3, #4568DC);
+        transition: 0.3s ease width;
+        left: 0; 
+    }
+    
+    input:focus~.barra::before{
+        width: 107%;
+    }
+    
+    button{
+        background: linear-gradient(to right, #B06AB3, #4568DC);
+        font-family: 'roboto';
+        border: none;
+        display:block;
+        width: 80%;
+        margin: 10px auto;
+        color: white;
+        height: 40px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    #registrate {
+        margin-top: 60px;
+    }
+    
+    #registrate p {
+        font-size: 15px;
+        color: #5e5d5d;
+    }
+    
+    #registrate p a{
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+        color: #2B055E;
+    }
+
+
+
+
+.camposIngresar{
+        width: 110%;
+        margin: auto;
+    }
+
+
+    .reset-password.is-login[data-v-4cf449c5] {
+        margin: 45px auto 0;
+    }
+
+    .switch-mode[data-v-4cf449c5] {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 0.75rem;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+
+    .switch-mode[data-v-4cf449c5] a{
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    #regis a{
+        color: rgb(0, 0, 0); /*letras*/
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #ingre a{
+
+        color: rgb(0, 0, 0); /*letras*/
+        text-decoration: none;
+        text-align: center;
+    
+    }
+
