@@ -105,7 +105,7 @@ position: absolute;
 
 
 .imgP1{                                             /*Estilo del contenedor 1*/
-  background-color: white;
+  background-color: black;
   width: 250px;
   height: 500px;
 }
@@ -122,7 +122,7 @@ position: absolute;
 }
 
 .imgP2{                                             /*Estilo del contenedor 2*/
-  background-color: white;
+  background-color: black;
   width: 250px;
   height: 500px;
 }
